@@ -1,0 +1,900 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  
+  }
+  ::selection{
+    color: rgb(255, 255, 255);
+    background: rgb(3, 132, 218);
+  }
+  
+  nav{
+    position: fixed;
+    background: #ffffff;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+  }
+  nav .menu{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .menu .logo a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 600;
+  
+  }
+  .menu ul{
+    display: inline-flex;
+  }
+  .menu ul li{
+    list-style: none;
+    margin-left: 7px;
+  }
+  .menu ul li:first-child{
+    margin-left: 0px;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 9px;
+    transition: all 0.3s ease;
+  }
+  .menu ul li a:hover{
+    background: rgb(173, 201, 50);
+    color: rgb(121, 120, 120);
+    font-size: xx-large;
+  }
+  .img{
+    width: 100%;
+    height: 100vh; 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  
+  .img::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: brown;
+  }
+
+  .h-one{
+    color: #111111;
+    font-size: xx-large;
+    font-style: italic;
+    text-shadow: 1px 1px black;
+  }
+
+  .lemon{
+    float: right;
+    border:none;
+    border-bottom-right-radius: 200%;
+  }
+
+
+  .TEAM{
+    color: #ffffff;
+    font-size: xx-large;
+    text-shadow: 1px 1px black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:italic;
+  }
+  
+  
+  
+  .center{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    
+  }
+  .center .title{
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    font-weight: 600;
+    text-shadow: 3px 3px greenyellow;
+  }
+  .center .sub_title{
+    color: rgb(173, 201, 50);
+    font-size: 52px;
+    font-weight: 600;
+    text-shadow: 1px 1px rgb(81, 94, 63);
+  
+  
+  }
+  
+  .color22{
+    color:whitesmoke;
+    font-size: x-large;
+  }
+  
+
+  .team-header{
+    color: rgb(245, 215, 161);
+    font-size: large;
+  }
+
+  .center .btns{
+    margin-top: 20px;
+  }
+  .t{
+    color: rgb(233, 60, 60);
+     font-size: x-large;
+     display: flex;
+     flex-direction: row;
+     justify-content:center ;
+  }
+  
+  .space{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+  }
+  
+  .clean{
+    color:  #cf2929;
+   font-size: x-large;
+   display: flex;
+     flex-direction: row;
+     justify-content:center;
+  }
+  
+  
+  
+  .section1{
+    background-color: whitesmoke;
+    
+  
+  }
+  
+  
+  .me{
+    color:rgb(0, 0, 0)
+  }
+  
+  
+   .color{
+     background-color: #111111;
+     background-image: url();
+   }
+  .h1{
+  
+    text-align: center;
+     font-size: medium;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size:xx-large
+  }
+  
+  
+  
+  .p{
+    color: rgb(darkred);
+    font-family: cursive;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+  }
+  .IMG3{
+    display: flex;
+    flex-direction:row;
+  }
+  
+  .newspaper {
+    column-count: 3;
+  }
+  
+  h2 {
+    column-span: all;
+  }
+  
+  
+  
+  
+  
+  
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+  }
+  
+  .navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    z-index: 9;
+  }
+  
+  .nav{
+    padding: 10px 10vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .brand-logo{
+    height: 60px;
+  }
+  
+  
+  
+  .nav-items{
+    display: flex;
+    align-items:to;
+  }
+        
+  
+  
+  .nav-items a{
+    margin-left: 20px;
+  }
+  
+  .nav-items a img{
+    width: 30px;
+  }
+  
+  
+  .NEWWS{
+    color: #000000;
+     background-color: #3d1300;
+  
+  }
+  
+  .img22{
+    width: 200;
+    margin: 0%;
+    padding: 0%;
+    
+  
+  }
+  
+  .round-image {
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+   }
+   .section2{
+  
+    background: #ffffff;
+  
+  }
+  
+  
+  .your{
+   color:rgb(173, 201, 50)
+  }
+  
+  
+  
+  
+  
+  .section3{
+    background:rgb(173, 201, 50);
+  
+  }
+  
+  .section0{
+    font-size: x-large;
+    color: #3b1414;
+    text-shadow: 1px 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left ;
+   
+  
+  }
+  
+  
+  
+  .shine{
+     color: #000000;
+  }
+  
+  .h1{
+    align-items: center;
+    color: aliceblue;
+    text-shadow: 2px 2px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    columns: 2;
+    column-gap: 30px;
+    float: none;
+  
+  }
+  
+  .first-txt{
+    position: absolute;
+    top: 17px;
+    left: 20px;
+  }
+  
+  .second-txt{
+    position: absolute;
+    top: 17px;
+    left: 150px;
+  }
+  
+  
+  .third-txt{
+    position: absolute;
+    top: 17px;
+    left: 10px;
+  }
+  
+  
+  
+  
+  
+  .ourmission{
+    color:grey;
+    display: flex;
+    flex-direction: column;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    align-items: center;  
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size:medium;
+    
+  }
+  
+  .buton{
+   box-shadow: #000000;
+  }
+  
+  .House{
+    font-size: x-large;
+    text-shadow: 1px 1px white;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+  
+  .p2{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200;
+    height: 200;
+    border-color: #000000;
+    font-weight: 700;
+  }
+  
+  .pro{
+    font-size: x-large;
+    text-shadow: 1px 1px white;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+  
+  }
+  
+  .IMG4{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  .wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    
+    min-width: 300px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #313133;
+    background: #4FD1C5;
+     background: linear-gradient(90deg, rgb(96, 228, 69) 0%, rgb(82, 233, 12) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(77, 184, 28, 0.64);
+    transition: all 0.1s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 0px;
+    }
+  
+  
+  
+    .button:hover, .button:focus {
+      color: #313133;
+      transform: translateY(-6px);
+    }
+  
+  button:hover::before, button:focus::before {
+    opacity: 1;
+  }
+  
+  
+  .p2{
+    color: rgb(255, 255, 255);
+  
+  }
+  
+  
+  .hh{
+    align-items: center;
+    color: #f1f1f1;
+  }
+  
+  .section4{
+    background-color: white;
+  }
+  
+  .bruh{
+    color: #f1f1f1;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-size: larger;
+    font-family: Impact;
+  }
+  
+ .onetwothree{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+  .fou{
+    background-color: whitesmoke;
+    color: whitesmoke;
+  }
+   
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    columns: 90;
+    column-gap: 100px;
+  
+  }
+
+
+  .row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    columns: 2;
+    column-gap: 100px;
+  }
+   
+  
+    .four{
+      color:white
+    }
+  
+    .jes{
+      color:rgb(255, 255, 255);
+  
+    }
+  
+    
+  
+   
+    body{ margin:0; font-family:'tahoma'}
+  
+    nav {
+      margin:0 auto;
+      width:100%;
+      height:auto;
+      display:inline-block;
+      background:rgb(255, 255, 255);
+    }
+    
+    nav ul {
+      margin:0;padding:0;
+      list-style-type:none;
+      display: flex;
+     flex-direction: row;
+     justify-content: center;
+     font-size: large;
+    }
+    
+    nav ul li {
+      position:relative;
+      margin:0 20px 0 0;
+      display:inline-block;
+    }
+    
+    li > a:after { content: '✨'; } /* Change this in order to change the Dropdown symbol */
+    
+    li > a:only-child:after { content: ''; }
+    
+    nav ul li a {
+      padding:20px;
+      display:inline-block;
+      color:rgb(0, 0, 0);
+      text-decoration:none;
+    }
+    
+    nav ul li a:hover {
+      color: rgb(238, 47, 47);
+      
+    }
+    
+    nav ul li ul {
+      display:none;
+      position:absolute;
+      left:0;
+      background:rgb(255, 255, 255);
+      float:right;
+    }
+    
+    nav ul li ul li {
+      width:100%;
+      border-bottom:1px solid rgba(255,255,255,.3);
+    }
+    
+    nav ul li:hover ul {
+      display:block;
+      
+    }
+  
+   .button5{
+    min-width: 300px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #313133;
+    background: #4FD1C5;
+     background: linear-gradient(90deg, rgb(209, 211, 211) 0%, rgb(188, 224, 171) 100%);
+    border: none;
+    border-radius: 1000px;
+    transition: all 0.1s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 0px;
+    
+  
+   }
+  
+   .button5:hover, .button5:focus {
+    color:rgb(201, 50, 50);
+    transform: translateY(-10px);
+  }
+  
+  .headlines{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color:white;
+    font-size: xx-large;
+    columns: 2;
+    column-gap: 96px;
+  }
+  
+  .head{
+    color:rgb(173, 201, 50)
+  }
+  
+  
+  
+  
+  .star{
+    color:white
+  }
+  
+  .footer{
+    background-color: rgb(255, 254, 254);
+    
+ }
+ 
+ .FAQS{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   color: rgb(0, 0, 0);
+   columns: 1;
+   column-gap: 30px;
+   font-size: larger;
+   text-shadow: 1px 1px black;
+   row-gap: 30px;
+ }
+ 
+ 
+ .Policy{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   color: rgb(0, 0, 0);
+   columns: 1;
+   column-gap: 30px;
+   font-size: x-large;
+
+ }
+
+ .H21{
+  color: #000000;
+
+}
+ 
+ .right{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   color:rgb(255, 255, 255)
+   
+ }
+ 
+ .rights{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   color: rgb(0, 0, 0);
+   font-size: larger;
+   
+ }
+ 
+ .FAQS2{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   color: rgb(0, 0, 0);
+   columns: 1;
+   column-gap: 30px;
+   font-size: larger;
+   row-gap: 30px;
+ }
+ 
+ .facebook{
+   float: right;
+ }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* UTILITIES */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body {
+    font-family: cursive;
+   }
+   a {
+    text-decoration: none;
+   }
+   li {
+    list-style: none;
+   }
+  
+  
+  
+   /* NAVBAR STYLING STARTS */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: teal;
+    color: #fff;
+   }
+   .nav-links a {
+    color: #fff;
+   }
+   /* LOGO */
+   .logo {
+    font-size: 32px;
+   }
+   /* NAVBAR MENU */
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+   }
+   .menu li {
+    padding: 5px 14px;
+   }
+   /* DROPDOWN MENU */
+   .services {
+    position: relative; 
+   }
+   .dropdown {
+    background-color: rgb(1, 139, 139);
+    padding: 1em 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+   }
+   .dropdown li + li {
+    margin-top: 10px;
+   }
+   .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+   }
+   .dropdown li:hover {
+    background-color: #4c9e9e;
+   }
+   .services:hover .dropdown {
+    display: block;
+   }
+  
+   /*RESPONSIVE NAVBAR MENU STARTS*/
+  /* CHECKBOX HACK */
+  input[type=checkbox]{
+    display: none;
+   } 
+   /*HAMBURGER MENU*/
+   .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+   }
+   /* APPLYING MEDIA QUERIES */
+   @media (max-width: 768px) {
+   .menu { 
+    display:none;
+    position: absolute;
+    background-color:teal;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+   }
+   .menu li:hover {
+    display: inline-block;
+    background-color:#4c9e9e;
+    transition: 0.3s ease;
+   }
+   .menu li + li {
+    margin-top: 12px;
+   }
+   input[type=checkbox]:checked ~ .menu{
+    display: block;
+   }
+   .hamburger {
+    display: block;
+   }
+   .dropdown {
+    left: 50%;
+    top: 30px;
+    transform: translateX(35%);
+   }
+   .dropdown li:hover {
+    background-color: #4c9e9e;
+   }
+   }
+
+  
+
+  
+
+
+   
+
+.container2 h3 {
+  padding: 1%;
+  margin: -1%;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: rgb(0, 0, 0);
+  position: relative;
+  justify-content: center;
+  top: 230px;
+  right: 202px;
+  font-size: large;
+  font-style:italic;
+
+}
+
+
+
+
+.sectionCommercial{
+  background-color:rgb(173, 201, 50);
+}
+
+.touch{
+  font-size: large;
+  color: #000000;
+   display: flex;
+  justify-content: center;
+  right: 10px;
+    columns: 2;
+  column-gap: 100;
+}
+
+.info{
+  font-size: larger;
+
+
+}
+
+.container {
+  display: flex;
+  flex-direction:row ;
+  justify-content: center;
+  columns: 2;
+  column-gap: 100px;
+ position: relative;
+ left: 0px;
+}
+
+
+.container h3 {
+  padding: 2%;
+  margin: -1%;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: rgb(0, 0, 0);
+  position: relative;
+  justify-content: center;
+  top: 18px;
+  right: 20px;
+  font-size: large;
+  font-style:italic;
+  
+}
+
+
+.word{
+  color: #000000;
+  font-size: xx-large;
+}
+
+
+
+
+
+
+
+
+.four{
+ color: rgb(173, 201, 50);
+ background-color: rgb(173, 201, 50);
+}
+
+
